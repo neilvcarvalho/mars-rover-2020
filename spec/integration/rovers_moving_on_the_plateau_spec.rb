@@ -1,5 +1,5 @@
 describe "Rovers moving on the plateau" do
-  it "works" do
+  it "moves the rovers using the instructions" do
     plateau = Plateau.new(5, 5)
 
     rover1 = Rover.new(plateau, 1, 2, "N")
