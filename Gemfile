@@ -1,6 +1,9 @@
-ruby "2.7.1"
-source "https://rubygems.org"
+source 'https://rubygems.org'
+
+gem 'rake'
 
 group :development, :test do
-  gem "rspec"
+	gem 'rspec'
+	gem 'guard'
+	gem 'guard-rspec'
 end

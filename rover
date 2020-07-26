@@ -1,0 +1,14 @@
+describe Rover do
+	before(:each) do
+		@rover = Rover.new
+	end
+
+	it "should initialize at position 0,0" do
+		@rover.x.should == 0
+		@rover.y.should == 0
+	end
+
+	it "should spin 90 degress clockwise if asked to turn right"
+	it "should spin 90 degress counterclockwise if asked to turn left"
+	it "should move 1 spot forward if asked to move"
+end
